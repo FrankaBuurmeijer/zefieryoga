@@ -238,8 +238,9 @@ section {
 }
 
 .patterned {
-	background: #222 url($pattern);
-
+	//background: #222 url($pattern);
+	background: $middle-gradient-color;
+	
 	&,
 	p {
 		color: #fefefe;
