@@ -56,7 +56,7 @@ header {
 
 section {
 	padding: 150px 0;
-	background: #fff;
+	background: $middle-gradient-color;
 	margin-top: -2px;
 
 	&.diagonal {
@@ -238,9 +238,7 @@ section {
 }
 
 .patterned {
-	//background: #222 url($pattern);
-	//background: url($middle-gradient-color);
-	background: $middle-gradient-color url($pattern)
+	background: #222 url($pattern);
 
 	&,
 	p {
